@@ -12,7 +12,11 @@ https://app.moqups.com/cWDsuiiyeXonJJvBuN5DTe5WbnuZNNJc/view/page/a880590a1
 Autores
 
 Miguel Antonio Campos Hernández - Programación, diseño, lógica y manuales
+
 José Ricardo Mejía Gámez - Programación, diseño, lógica y manuales
+
 William Ernesto Rodríguez Reyes - Programación, diseño, lógica y manuales
+
 Jennyfer Liseth Soto Chacón - Programación, diseño, lógica y manuales
+
 Luis Eduardo Rivera Martínez - Programación, diseño, lógica y manuales
