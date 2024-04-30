@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VetStaBarbaraUDB</string>
+    <string name="msgBienvenida">¡Hola! Es bueno verte de nuevo</string>
+    <string name="nomVet">Veterinaria Santa Bárbara</string>
+    <string name="btnIniciarses">Iniciar Sesión</string>
+    <string name="open_nav">Abrir Navigation Drawer</string>
+    <string name="close_nav">Cerrar Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

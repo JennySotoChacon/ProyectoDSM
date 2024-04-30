@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Inicio"
+            />
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/baseline_note_add_24"
+            android:title="Crear cita"
+            />
+        <item
+            android:id="@+id/nav_record"
+            android:icon="@drawable/baseline_sticky_note_2_24"
+            android:title="Historial"
+            />
+        <item
+            android:id="@+id/nav_patients"
+            android:icon="@drawable/baseline_pets_24"
+            android:title="Pacientes"
+            />
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/baseline_medical_services_24"
+            android:title="Usuarios"
+            />
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/baseline_settings_24"
+                android:title="Opciones"
+                />
+        </menu>
+    </item>
+
+</menu>
