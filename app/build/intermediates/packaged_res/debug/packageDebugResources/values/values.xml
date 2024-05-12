@@ -23,13 +23,19 @@
     <color name="light_grey">#D2DAE2</color>
     <color name="salmon">#F85F6A</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="button_height_fixed">10dp</dimen>
+    <string name="agregar_usuario">Agregar Usuario</string>
     <string name="app_name">VetStaBarbaraUDB</string>
+    <string name="asistentes">Asistentes</string>
     <string name="btnIniciarses">Iniciar Sesión</string>
     <string name="close_nav">Cerrar Navigation Drawer</string>
+    <string name="editar_usuario">Editar Usuario</string>
+    <string name="eliminar_usuario">Eliminar Usuario</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="msgBienvenida">¡Hola! Es bueno verte de nuevo</string>
     <string name="nomVet">Veterinaria Santa Bárbara</string>
     <string name="open_nav">Abrir Navigation Drawer</string>
+    <string name="veterinarios">Veterinarios</string>
     <style name="Base.Theme.VetStaBarbaraUDB" parent="Theme.Material3.DayNight.NoActionBar">
         
          <item name="colorPrimary">@color/salmon</item>
