@@ -7,4 +7,9 @@
     <string name="close_nav">Cerrar Navigation Drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="veterinarios">Veterinarios</string>
+    <string name="asistentes">Asistentes</string>
+    <string name="editar_usuario">Editar Usuario</string>
+    <string name="eliminar_usuario">Eliminar Usuario</string>
+    <string name="agregar_usuario">Agregar Usuario</string>
 </resources>

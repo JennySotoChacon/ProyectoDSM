@@ -1,6 +1,5 @@
 package com.udb.vetstabarbaraudb
 
-
 import android.app.AlertDialog
 import android.os.Bundle
 import android.view.MenuItem
@@ -19,105 +18,90 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Enlazar el DrawerLayout desde el layout
         drawerLayout = findViewById(R.id.drawer_layout)
 
+        // Configurar la barra de herramientas (Toolbar)
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
 
+        // Configurar el NavigationView
         val navigationView = findViewById<NavigationView>(R.id.nav_view)
         navigationView.setNavigationItemSelectedListener(this)
 
+        // Configurar el ActionBarDrawerToggle para abrir y cerrar el DrawerLayout
         val toggle = ActionBarDrawerToggle(
             this,
             drawerLayout,
             toolbar,
-            R.string.open_nav,
-            R.string.close_nav
+            R.string.open_nav, // Descripción de apertura del menú lateral
+            R.string.close_nav // Descripción de cierre del menú lateral
         )
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
 
+        // Si savedInstanceState es nulo, reemplazar el fragmento actual con el fragmento HomeFragment
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container, HomeFragment()).commit()
-            navigationView.setCheckedItem(R.id.nav_home)
-            updateToolbarTitle("Inicio")
+            navigationView.setCheckedItem(R.id.nav_home) // Marcar el elemento "Inicio" en el menú lateral
+            updateToolbarTitle("Inicio") // Actualizar el título de la barra de herramientas
         }
 
+        // Agregar un callback para manejar el botón de retroceso
         onBackPressedDispatcher.addCallback(this, callback)
     }
 
+    // Método que se ejecuta cuando se selecciona un elemento del menú lateral
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        // Según el ID del elemento seleccionado, realizar una acción
         when (item.itemId) {
             R.id.nav_home -> {
-                showAlertDialog("home")
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fragment_container, HomeFragment()).commit()
             }
-
             R.id.nav_appointment -> {
-                showAlertDialog("appointment")
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fragment_container, AppointmentFragment()).commit()
             }
-
             R.id.nav_record -> {
-                showAlertDialog("record")
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fragment_container, RecordFragment()).commit()
             }
-
             R.id.nav_patients -> {
-                showAlertDialog("patients")
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fragment_container, PatientsFragment()).commit()
             }
-
             R.id.nav_users -> {
-                showAlertDialog("users")
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fragment_container, UsersFragment()).commit()
             }
-
             R.id.nav_settings -> {
-                showAlertDialog("settings")
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fragment_container, SettingsFragment()).commit()
             }
         }
-        drawerLayout.closeDrawer(GravityCompat.START)
+        drawerLayout.closeDrawer(GravityCompat.START) // Cerrar el menú lateral
         return true
-
     }
 
+    // Método para mostrar un cuadro de diálogo de alerta
 
-    private fun showAlertDialog(title: String) {
-        val alertDialogBuilder = AlertDialog.Builder(this)
-        alertDialogBuilder.apply {
-            setTitle("Alerta")
-            setMessage("Has seleccionado $title")
-            setPositiveButton("Aceptar") { dialog, _ ->
-                dialog.dismiss()
-            }
-        }
-        val alertDialog = alertDialogBuilder.create()
-        alertDialog.show()
-    }
-
+    // Callback personalizado para manejar el botón de retroceso
     private val callback = object : OnBackPressedCallback(true) {
         override fun handleOnBackPressed() {
             if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
-                // Si el cajón de navegación está abierto, ciérralo
+                // Si el menú lateral está abierto, ciérralo
                 drawerLayout.closeDrawer(GravityCompat.START)
             } else {
-                // Si el cajón de navegación está cerrado, realiza el comportamiento predeterminado
-                onBackPressed() // Llamar al método predeterminado de onBackPressed
+                // Si el menú lateral está cerrado, realiza el comportamiento predeterminado
+                onBackPressed() // Llamar al método predeterminado onBackPressed
             }
         }
     }
 
+    // Método para actualizar el título de la barra de herramientas
     fun updateToolbarTitle(title: String) {
         supportActionBar?.title = title
     }
-
 }

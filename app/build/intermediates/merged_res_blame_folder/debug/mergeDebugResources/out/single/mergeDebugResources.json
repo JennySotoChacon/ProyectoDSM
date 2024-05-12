@@ -32,10 +32,6 @@
         "source": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.udb.vetstabarbaraudb.app-debug-31:/layout_fragment_settings.xml.flat",
-        "source": "com.udb.vetstabarbaraudb.app-main-33:/layout/fragment_settings.xml"
-    },
-    {
         "merged": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-debug-31:\\layout_fragment_users.xml.flat",
         "source": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-main-33:\\layout\\fragment_users.xml"
     },
@@ -52,14 +48,6 @@
         "source": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.udb.vetstabarbaraudb.app-debug-31:/layout_fragment_record.xml.flat",
-        "source": "com.udb.vetstabarbaraudb.app-main-33:/layout/fragment_record.xml"
-    },
-    {
-        "merged": "com.udb.vetstabarbaraudb.app-debug-31:/layout_fragment_home.xml.flat",
-        "source": "com.udb.vetstabarbaraudb.app-main-33:/layout/fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-debug-31:\\layout_fragment_settings.xml.flat",
         "source": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-main-33:\\layout\\fragment_settings.xml"
     },
@@ -72,12 +60,20 @@
         "source": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-main-33:\\drawable\\baseline_chevron_right_24.xml"
     },
     {
+        "merged": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-debug-31:\\drawable_divider.xml.flat",
+        "source": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-main-33:\\drawable\\divider.xml"
+    },
+    {
         "merged": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-debug-31:\\layout_fragment_patients.xml.flat",
         "source": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-main-33:\\layout\\fragment_patients.xml"
     },
     {
         "merged": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-debug-31:\\layout_fragment_home.xml.flat",
         "source": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-main-33:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-debug-31:\\drawable_rounded_button_background.xml.flat",
+        "source": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-main-33:\\drawable\\rounded_button_background.xml"
     },
     {
         "merged": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-debug-31:\\drawable_baseline_close_24.xml.flat",
@@ -132,10 +128,6 @@
         "source": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.udb.vetstabarbaraudb.app-debug-31:/layout_fragment_patients.xml.flat",
-        "source": "com.udb.vetstabarbaraudb.app-main-33:/layout/fragment_patients.xml"
-    },
-    {
         "merged": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
     },
@@ -150,10 +142,6 @@
     {
         "merged": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-debug-31:\\drawable_baseline_pets_24.xml.flat",
         "source": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-main-33:\\drawable\\baseline_pets_24.xml"
-    },
-    {
-        "merged": "com.udb.vetstabarbaraudb.app-debug-31:/layout_fragment_appointment.xml.flat",
-        "source": "com.udb.vetstabarbaraudb.app-main-33:/layout/fragment_appointment.xml"
     },
     {
         "merged": "C:\\Users\\ricar\\.gradle\\daemon\\8.4\\com.udb.vetstabarbaraudb.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",

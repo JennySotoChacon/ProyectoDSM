@@ -10,6 +10,7 @@ color ligh_salmon
 color light_grey
 color salmon
 color white
+dimen button_height_fixed
 drawable baseline_chevron_left_24
 drawable baseline_chevron_right_24
 drawable baseline_close_24
@@ -20,8 +21,10 @@ drawable baseline_note_add_24
 drawable baseline_pets_24
 drawable baseline_settings_24
 drawable baseline_sticky_note_2_24
+drawable divider
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable rounded_button_background
 drawable userplaceholder
 font asap
 id drawer_layout
@@ -33,6 +36,8 @@ id nav_record
 id nav_settings
 id nav_users
 id nav_view
+id tableLayout
+id textViewTitle
 id toolbar
 id userimg
 id username
@@ -48,13 +53,18 @@ layout nav_header
 menu nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+string agregar_usuario
 string app_name
+string asistentes
 string btnIniciarses
 string close_nav
+string editar_usuario
+string eliminar_usuario
 string hello_blank_fragment
 string msgBienvenida
 string nomVet
 string open_nav
+string veterinarios
 style Base.Theme.VetStaBarbaraUDB
 style Theme.VetStaBarbaraUDB
 xml backup_rules
