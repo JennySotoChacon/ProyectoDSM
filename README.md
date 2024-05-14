@@ -9,6 +9,10 @@ MockUps
 
 https://app.moqups.com/cWDsuiiyeXonJJvBuN5DTe5WbnuZNNJc/view/page/a880590a1
 
+Manuales
+
+https://drive.google.com/drive/folders/1dl_kDODX-C5VhiiTHUytZ-cyp1zLx_Xp?usp=sharing
+
 Autores
 
 Miguel Antonio Campos Hernández - Programación, diseño, lógica y manuales
