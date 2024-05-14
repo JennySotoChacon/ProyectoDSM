@@ -12,4 +12,17 @@
     <string name="editar_usuario">Editar Usuario</string>
     <string name="eliminar_usuario">Eliminar Usuario</string>
     <string name="agregar_usuario">Agregar Usuario</string>
+    <string name="pacientes">Pacientes</string>
+    <string name="historial">Historial</string>
+    <string name="citas_anteriores">Citas anteriores</string>
+    <string name="citas_de_hoy">Citas de Hoy</string>
+    <string name="veterinario">Veterinario</string>
+    <string name="paciente">Paciente</string>
+    <string name="hora_de_cita">Hora de cita</string>
+    <string name="ver_citas_de_hoy">Ver Citas de Hoy</string>
+    <string name="fecha">Fecha</string>
+    <string name="registrar_paciente">Registrar Paciente</string>
+    <string name="ver_historial">Ver Historial</string>
+    <string name="programar_cita">Programar Cita</string>
+    <string name="hora">Hora</string>
 </resources>

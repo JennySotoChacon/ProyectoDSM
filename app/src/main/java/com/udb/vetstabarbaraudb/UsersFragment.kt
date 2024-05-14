@@ -67,6 +67,8 @@ class UsersFragment : Fragment() {
             editButton.text = "Editar"
             editButton.setBackgroundResource(R.drawable.rounded_button_background)
             editButton.setTextColor(Color.WHITE)
+            val buttonHeight = resources.getDimensionPixelSize(R.dimen.button_height_fixed)
+            editButton.height = buttonHeight
             editButton.setOnClickListener {
                 // lógica para editar el usuario
                 showEditAlertDialog()
